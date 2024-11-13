@@ -20,7 +20,7 @@ def calcular_media():
     # Exibe o resultado
     print(f"A média do aluno é: {media:.2f}")
 
-     # Verifica se o aluno está aprovado ou reprovado
+     # Verifica a media
     if media >= 6:
         print("Aprovado")
         elif 5.0 <= media < 6.0:
