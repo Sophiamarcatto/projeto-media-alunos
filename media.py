@@ -23,6 +23,8 @@ def calcular_media():
      # Verifica se o aluno está aprovado ou reprovado
     if media >= 6:
         print("Aprovado")
+        elif 5.0 <= media < 6.0:
+        print("Recuperação")
     else:
         print("Reprovado")
 
